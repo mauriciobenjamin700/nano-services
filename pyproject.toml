@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.12"
 pandas = "^2.2.2"
 fastapi = "^0.112.2"
+matplotlib = "^3.9.2"
 
 
 [build-system]
