@@ -1,0 +1,5 @@
+# https://www.youtube.com/watch?v=MkLX85XU5rU
+SMTP_SERVER = "smtp.gmail.com"
+SMTP_PORT = 587
+EMAIL_USERNAME = "YOUR GMAIL ADDRESS"
+EMAIL_PASSWORD = "YOUR GMAIL APP PASSWORD" 
