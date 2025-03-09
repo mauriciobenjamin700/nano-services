@@ -1,17 +1,11 @@
-[tool.poetry]
+[project]
 name = "nano-services"
 version = "0.1.0"
-description = ""
-authors = ["Mauricio Benjamin <mauriciobenjamin700@gmail.com>"]
+description = "A project with generic nano services in python"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.12"
-pandas = "^2.2.2"
-fastapi = "^0.112.2"
-matplotlib = "^3.9.2"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.115.11",
+    "matplotlib>=3.10.1",
+    "pydantic>=2.10.6",
+]
